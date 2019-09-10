@@ -24,7 +24,7 @@ The above code uses bracket notation to access the third item in the array. We p
 
 ### Array Methods
 
-There are built in methods javasceript for the `Array` datatype. These methods are what we can use to manipulate our arrays and what is inside of them.
+There are built in methods javascript for the `Array` datatype. These methods are what we can use to manipulate our arrays and what is inside of them.
 
 `.push()` - push is the method we can use on arrays push or append items to the end of our array
 
@@ -58,7 +58,7 @@ console.log(myArray) // => ['is', 'my', 'array']
 console.log(arrayItem) // => 'this'
 ```
 
-`.unshift()` - unshift is the method we can use to add an item to the beggining of our array
+`.unshift()` - unshift is the method we can use to add an item to the beginning of our array
 
 ```javascript
 let myArray = ['this', 'is', 'my', 'array'];
@@ -108,7 +108,7 @@ myNewArray.splice(1,1, 'hello', 'world')
 console.log(myNewArray) // => [ 1, 'hello', 'world', 3, 4, 5 ]
 ```
 
-`.length` - length is not a method, but a property on an `Array` datatype. Length will give us a number value for how manby elements are inside of an array.
+`.length` - length is not a method, but a property on an `Array` datatype. Length will give us a number value for how many elements are inside of an array.
 
 ```javascript
 const myNewArray = [1,2,3,4,5];
@@ -128,7 +128,7 @@ for(let i = 0; i <= 10; i++){
 }
 ```
 
-There three parts of the for loop are:
+The three parts of the for loop are:
 
 `the loop initialization` - this is where we declare our counter variable that we can use to determine the iteration we are currently on.
 
@@ -136,7 +136,7 @@ There three parts of the for loop are:
 let i = 0
 ```
 
-`the test statement` - the test statement is where we check for a certain condition to be true before performing the logic inside the code block of the for loop. Once this runs false, our loop will kill of and stop iterating.
+`the test statement` - the test statement is where we check for a certain condition to be true before performing the logic inside the code block of the for loop. Once this runs false, our loop will stop iterating.
 
 ```javascript
 i <= 10
@@ -150,7 +150,7 @@ i++
 
 ### Using A For Loop To Iterate Through An Array
 
-It's also very convienent to use when it come to iterating through arrays.
+It's also very convenient to use when it come to iterating through arrays.
 
 ```javascript
 let myArray = ['this', 'is', 'my', 'array'];
