@@ -85,7 +85,7 @@ console.log(shallowCopy) // => ['is', 'my']
 
 `.splice()` - splice is the method we can use to alter our original array by removing elements. It will also return the elements that are removed.
 
-It will take in two arguments, the beggining index of where to start removing and a number determining how many items to remove. If the end is never provided, it will go until the end of the array.
+It will take in two arguments, the beginning index of where to start removing and a number determining how many items to remove. If the end is never provided, it will go until the end of the array.
 
 NOTE: This will mutate our original array
 
@@ -174,7 +174,7 @@ for(let i = myArray.length - 1; i >= 0; i--){
 
 ## Objects
 
-Objects are an unordered collection of key / value pairs. Objects are often used to describe real world like objects: house, person, dog, etc.
+Objects are an unordered collection of key / value pairs. Objects are often used to describe real world things: house, person, dog, etc.
 
 ```javascript
 let myCar = {
