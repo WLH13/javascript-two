@@ -241,7 +241,7 @@ let myCar = {
     year: 2019
 }
 
-myCar.['color'] = 'white'
+myCar['color'] = 'white'
 ```
 
 ### Methods
