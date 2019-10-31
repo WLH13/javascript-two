@@ -184,7 +184,7 @@ let myCar = {
 }
 ```
 
-### Accesing Objects
+### Accessing Objects
 
 We can access the values from properties on an object by using `dot notation` or `bracket notation`
 
