@@ -2,6 +2,10 @@
 
 This is a repo used for notes on the javascript 2 lecture.
 
+# Lecture Slides
+
+https://slides.com/mattbodily/deck-22
+
 ## Arrays
 
 Arrays are ordered lists in javascript that are zero based indexed. The length of an array is dynamic and can hold however many items that our list needs to hold. Since an array is zero based index, the index value of the first item is 0.
